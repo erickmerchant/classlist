@@ -1,0 +1,23 @@
+{
+  "name": "@erickmerchant/classlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmerchant/classlist.git"
+  },
+  "author": "Erick Merchant <erickmerchant@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erickmerchant/classlist/issues"
+  },
+  "homepage": "https://github.com/erickmerchant/classlist#readme",
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tape": "^4.9.1"
+  }
+}
