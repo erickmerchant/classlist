@@ -4,7 +4,8 @@ module.exports = function classlist (prefix = '') {
       const results = []
 
       if (Array.isArray(arg)) {
-        for (const v of arg) {
+        for (let i = 0; i < arg.length; i++) {
+          const v = arg[i]
           results.push(classlist(prefix)(v))
         }
       } else {
